@@ -71,7 +71,7 @@ section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* Hero section style start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -80,33 +80,37 @@ section {
     position: relative;
 }
 
-    /* Hero-Form Style Start*/
+    /* Hero-Form style start*/
     .hero-form {
-    background-color: #fce138;
-    color: #024e76;
-    border: solid 3px #024e76;
-    padding: 20px;
-    width: 500px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+        background-color: #fce138;
+        color: #024e76;
+        border: solid 3px #024e76;
+        padding: 20px;
+        width: 500px;
+        position: absolute;
+        bottom: 120px;
+        right: 140px;
     }
+
     .hero h3 {
-    font-size: 24px;
-    margin: 0px;
+        font-size: 24px;
+        margin: 0px;
     }
+
     .hero-form p {
-    margin: 5px 0 15px 0;
+        margin: 5px 0 15px 0;
     }
+
     .form-input {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size:16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
+        border: 1px solid #024e76;
+        display: block;
+        padding: 7px 15px;
+        font-size:16px;
+        color: #024e76;
+        width: 100%;
+        margin-bottom: 15px;
     }
+
     .hero-form label {
     margin: 0 5px;
     }
@@ -120,7 +124,7 @@ section {
     }
     /*Hero-Form style end*/
 
-/* Hero Style End */
+/* Hero section style End */
 
 /* Start intro section style */
 .intro {
@@ -176,45 +180,47 @@ section {
     border-bottom: 3px solid;
 }
 
-/*Start trainers section style */
+/*Start meet the trainers section style */
 .trainers {
     text-align: center;
 }
+    /* Start trainer bio section style */
+    .trainer {
+        width: 900px;
+        margin: 0 auto 30px auto;
+        background: #024e76;
+        color: #fce138;
+        overflow: auto;
+    }
 
-.trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
-}
+    .trainer img {
+        width: 35%;
+        float: left;
+    }
 
-.trainer img {
-    width: 35%;
-    float: left;
-}
+    .trainer-bio {
+        padding: 35px;
+        float: left;
+        width: 65%;
+    }
 
-.trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
-}
-
-.trainer-bio h3 {
+    .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
-}
+    }
 
-.trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
-}
+    .trainer-bio h4 {
+        font-weight: lighter;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
 
-.trainer-bio p {
-    font-size: 17px;
-    line-height: 1.3;
-}
+    .trainer-bio p {
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    /* End trainer bio secion style *?
+/* End meet the trainers section style */
 
 
 /* start utility class styles */
