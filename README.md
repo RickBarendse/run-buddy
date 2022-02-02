@@ -12,3 +12,5 @@ https://rickbarensde.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Rick Barendse
+
+### ©️2019 Run Buddy, Inc
