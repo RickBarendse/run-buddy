@@ -540,13 +540,13 @@ section {
         justify-content: center;
     }
 
-    .step-img {
+    .step-img img{
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
-        justify-content: center;
-        align-content: center;
+    /*--    justify-content: center;
+        align-content: center; --*/
     }
 
     .step-text {
